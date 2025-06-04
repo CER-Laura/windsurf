@@ -12,24 +12,44 @@
 border border-black
 min-h-dvh
 bg-gradient-to-b from-black  via-sky-950 to-gray-800">
-    <header class="text-white">
-        <img src="./assets/perfil.webp" alt="El perfil de laura" 
-        class="h-96 object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-80%">
+    <header class="text-white flex flex-col items-center justify-center gap-3">
+
+        <img src="./assets/perfil.webp" alt="El perfil de laura"
+            class="h-96 object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-80%">
+
+        <header class="flex flex-col justify-center items-center mb-8 -mt-4 z-10">
+            <span class="text-xl text-sky-400 font-mono py-2 px-2 border-sky-400 
+            border-2 rounded-full flex items-center justify-center bg-black/65 cursor-pointer">
+                <!-- padding px derecha e izquierda y py arriba y abajo
+                 bg-black/60 el 60 indica la opacidad -->
+                @CER-Laura
+                <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20"
+                    aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd" />
+                </svg>
+            </span>
+            <span class="text-2xl font-bold">
+                Laura Domínguez
+            </span>
+        </header>
+
         <section class="flex gap-2">
-            <a class="bg-gray-800 p-4 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-gray-800 p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
                 href="https://github.com/CER-Laura" target="_blank" aria-label="Github" title="Ir a github">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#github"></use>
                 </svg>
             </a>
-            <a class="bg-white p-4 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
                 href="https://www.linkedin.com/in/laura-dominguez/" target="_blank" aria-label="LinkedIn"
                 title="Ir a LinkedIn">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#linkedin"></use>
                 </svg>
             </a>
-            <a class="bg-white p-4 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
                 href="https://www.youtube.com/@lauradominguez" target="_blank" aria-label="YouTube"
                 title="Ir a YouTube">
                 <svg width="32" height="32">
@@ -37,12 +57,15 @@ bg-gradient-to-b from-black  via-sky-950 to-gray-800">
                 </svg>
             </a>
         </section>
+        <p class="text-center mt-4 text-md text-sky-200">
+            Professora de Programació i Llenguatge de marques en el CERoca. També sóc Cap de departament d'informàtica.
+        </p>
     </header>
     <main>
         Links
     </main>
     <footer>
-        Lau
+        Laura Domínguez
     </footer>
 </body>
 
