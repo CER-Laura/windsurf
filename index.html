@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/output.css">
 </head>
 
 <body class="mx-auto border border-black min-h-dvh 
-bg-gradient-to-b from-black  via-sky-950 to-gray-800">
-    <header class="text-white flex flex-col items-center justify-center gap-3">
+bg-gradient-to-b from-black  via-emerald-950 to-emerald-800">
+    <header class="text-white flex flex-col items-center justify-center gap-3 ">
 
         <img src="./assets/perfil.webp" alt="El perfil de laura"
-            class="h-96 object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-80%">
+            class="object-cover mask-radial-at-center mask-radial-from-40% mask-radial-to-90%">
 
         <header class="flex flex-col justify-center items-center mb-8 -mt-4 z-10">
-            <span class="text-xl text-sky-400 font-mono py-2 px-2 border-sky-400 
+            <span class="text-xl text-emerald-400 font-mono py-2 px-2 border-emerald-400 
             border-2 rounded-full flex items-center justify-center bg-black/65 cursor-pointer">
                 <!-- padding px derecha e izquierda y py arriba y abajo
                  bg-black/60 el 60 indica la opacidad -->
                 @CER-Laura
-                <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20"
+                <svg class="ml-1 w-5 h-5 text-primary inline" fill="currentColor" viewBox="0 0 20 20"
                     aria-hidden="true">
                     <path fill-rule="evenodd"
                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -34,20 +34,20 @@ bg-gradient-to-b from-black  via-sky-950 to-gray-800">
         </header>
 
         <section class="flex gap-2">
-            <a class="bg-gray-800 p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-gray-800 social-button"
                 href="https://github.com/CER-Laura" target="_blank" aria-label="Github" title="Ir a github">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#github"></use>
                 </svg>
             </a>
-            <a class="bg-white p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white social-button"
                 href="https://www.linkedin.com/in/laura-dominguez/" target="_blank" aria-label="LinkedIn"
                 title="Ir a LinkedIn">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#linkedin"></use>
                 </svg>
             </a>
-            <a class="bg-white p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+            <a class="bg-white social-button"   
                 href="https://www.youtube.com/@lauradominguez" target="_blank" aria-label="YouTube"
                 title="Ir a YouTube">
                 <svg width="32" height="32">
@@ -55,7 +55,7 @@ bg-gradient-to-b from-black  via-sky-950 to-gray-800">
                 </svg>
             </a>
         </section>
-        <p class="text-center mt-4 text-md text-sky-200">
+        <p class="text-center mt-4 text-md text-lime-500 text-balance">
             Professora de Programació i Llenguatge de marques en el CERoca. També sóc Cap de departament d'informàtica.
         </p>
     </header>

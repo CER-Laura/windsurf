@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #27cf7b; 
+}
+
+.social-button{
+    @apply p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+}
