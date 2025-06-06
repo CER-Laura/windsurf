@@ -1,9 +1,20 @@
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+@font-face{
+    font-family: 'EduSAHand';
+    src: url('/assets/EduSAHand.woff2') format('woff2');
+ 
+}
 
 @theme{
-    --color-primary: #27cf7b; 
+    --color-primary: #27cf7b;
+    --color-html-dark: #E44D26; 
+
+    --font-display: 'EduSAHand', system-ui, sans-serif;
 }
 
 .social-button{
     @apply p-4 size-12 sm:size-16 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
 }
+

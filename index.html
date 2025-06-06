@@ -13,13 +13,12 @@ bg-gradient-to-b from-black  via-emerald-950 to-emerald-800">
     <header class="text-white flex flex-col items-center justify-center gap-3 ">
 
         <img src="./assets/perfil.webp" alt="El perfil de laura"
-            class="object-cover mask-radial-at-center mask-radial-from-40% mask-radial-to-90%">
+            class="h-[50vh] object-cover mask-radial-at-center mask-radial-from-40% mask-radial-to-90% animate-pulse-fade-in">
 
-        <header class="flex flex-col justify-center items-center mb-8 -mt-4 z-10">
+        <header class="flex flex-col justify-center items-center mb-4 -mt-4 z-10">
             <span class="text-xl text-emerald-400 font-mono py-2 px-2 border-emerald-400 
             border-2 rounded-full flex items-center justify-center bg-black/65 cursor-pointer">
-                <!-- padding px derecha e izquierda y py arriba y abajo
-                 bg-black/60 el 60 indica la opacidad -->
+                <!--  bg-black/60 el 60 indica la opacidad -->
                 @CER-Laura
                 <svg class="ml-1 w-5 h-5 text-primary inline" fill="currentColor" viewBox="0 0 20 20"
                     aria-hidden="true">
@@ -28,28 +27,26 @@ bg-gradient-to-b from-black  via-emerald-950 to-emerald-800">
                         clip-rule="evenodd" />
                 </svg>
             </span>
-            <span class="text-2xl font-bold">
+            <span class="mt-2 text-2xl font-bold leading-tight font-display">
                 Laura Domínguez
             </span>
         </header>
 
         <section class="flex gap-2">
-            <a class="bg-gray-800 social-button"
-                href="https://github.com/CER-Laura" target="_blank" aria-label="Github" title="Ir a github">
+            <a class="bg-gray-800 social-button animate-slide-up-fade" href="https://github.com/CER-Laura" target="_blank" aria-label="Github"
+                title="Ir a github">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#github"></use>
                 </svg>
             </a>
-            <a class="bg-white social-button"
-                href="https://www.linkedin.com/in/laura-dominguez/" target="_blank" aria-label="LinkedIn"
-                title="Ir a LinkedIn">
+            <a class="bg-white social-button animate-slide-up-fade animate-delay-100" href="https://www.linkedin.com/in/laura-dominguez/" target="_blank"
+                aria-label="LinkedIn" title="Ir a LinkedIn">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#linkedin"></use>
                 </svg>
             </a>
-            <a class="bg-white social-button"   
-                href="https://www.youtube.com/@lauradominguez" target="_blank" aria-label="YouTube"
-                title="Ir a YouTube">
+            <a class="bg-white social-button animate-slide-up-fade animate-delay-200" href="https://www.youtube.com/@lauradominguez" target="_blank"
+                aria-label="YouTube" title="Ir a YouTube">
                 <svg width="32" height="32">
                     <use xlink:href="./assets/sprite.svg#youtube"></use>
                 </svg>
@@ -58,13 +55,75 @@ bg-gradient-to-b from-black  via-emerald-950 to-emerald-800">
         <p class="text-center mt-4 text-md text-lime-500 text-balance">
             Professora de Programació i Llenguatge de marques en el CERoca. També sóc Cap de departament d'informàtica.
         </p>
+        <main class="px-4 py-4">
+            <div class="grid grid-cols-3 gap-2 w-full">
+                <a href="https://educaciodigital.cat/esc-ceroca/moodle/" class="rounded-3xl overflow-hidden 
+                bg-gradient-to-br from-orange-700 via-orange-300 to-orange-200
+                border border-orange-900
+                flex flex-col justify-between
+                hover:scale-105 hover:contrast-125 transition 
+                group
+                col-span-2 p-3 min-h-[180px]">
+                    <span class="text-xs">Curs de HTML CSS JSON JavaScript</span>
+                    <div class="flex flex-row justify-between items-end">
+                        <span class="font-bold text-lg">Llenguatges de marques</span>
+                        <svg width="180" height="180" class="pt-10 -rotate-12 size-20 group-hover:scale-115 transition-transform
+                        group-hover:-rotate-16">
+                            <use xlink:href="./assets/sprite.svg#html"></use>
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://educaciodigital.cat/esc-ceroca/moodle/" class="rounded-3xl overflow-hidden 
+                bg-gradient-to-br from-blue-700 via-blue-500 to-blue-400
+                border border-blue-900
+                flex flex-col justify-between
+                hover:scale-105 hover:contrast-150 transition 
+                group
+                col-span-1 p-3 min-h-[180px]">
+                    <span class="text-xs">Curs de Java</span>
+                    <div class="flex flex-row justify-between items-end">
+                        <span class="font-bold text-lg">Programació</span>
+                        <svg width="180" height="180" class="pt-10 -rotate-12 size-20 group-hover:scale-115 transition-transform
+                        group-hover:-rotate-16">
+                            <use xlink:href="./assets/sprite.svg#node"></use>
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://educaciodigital.cat/esc-ceroca/moodle/" class="rounded-3xl overflow-hidden 
+                bg-gradient-to-br from-purple-700 via-purple-500 to-purple-400
+                border border-purple-900
+                flex flex-col justify-between
+                hover:scale-105 hover:contrast-150 transition 
+                group
+                col-span-1 p-3 min-h-[180px]">
+                    <span class="text-xs">Curs de Java</span>
+                    <div class="flex flex-row justify-between items-end">
+                        <span class="font-bold text-lg">Programació</span>
+                        <svg width="180" height="180" class="pt-10 -rotate-12 size-20 group-hover:scale-115 transition-transform
+                        group-hover:-rotate-16">
+                            <use xlink:href="./assets/sprite.svg#css"></use>
+                        </svg>
+                    </div>
+                </a>
+                <a href="https://educaciodigital.cat/esc-ceroca/moodle/" class="rounded-3xl overflow-hidden 
+                bg-gradient-to-br from-yellow-700 via-yellow-500 to-yellow-400
+                border border-yellow-900
+                flex flex-col justify-between
+                hover:scale-105 hover:contrast-150 transition 
+                group
+                col-span-2 p-3 min-h-[180px]">
+                    <span class="text-xs">Curs de Java</span>
+                    <div class="flex flex-row justify-between items-end">
+                        <span class="font-bold text-lg">Programació</span>
+                        <svg width="180" height="180" class="pt-10 -rotate-12 size-20 group-hover:scale-115 transition-transform
+                        group-hover:-rotate-16">
+                            <use xlink:href="./assets/sprite.svg#react"></use>
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </main>
     </header>
-    <main>
-        Links
-    </main>
-    <footer>
-        Laura Domínguez
-    </footer>
 </body>
 
 </html>
